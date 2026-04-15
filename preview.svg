@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- 배경 -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>
+      <stop offset="50%" style="stop-color:#FFD93D"/>
+      <stop offset="100%" style="stop-color:#FF6B6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 별 배경 -->
+  <circle cx="100" cy="80" r="2" fill="white" opacity="0.4"/>
+  <circle cx="300" cy="50" r="1.5" fill="white" opacity="0.3"/>
+  <circle cx="500" cy="100" r="2" fill="white" opacity="0.5"/>
+  <circle cx="800" cy="60" r="1.5" fill="white" opacity="0.3"/>
+  <circle cx="1000" cy="90" r="2" fill="white" opacity="0.4"/>
+  <circle cx="1100" cy="40" r="1" fill="white" opacity="0.3"/>
+  <circle cx="200" cy="200" r="1.5" fill="white" opacity="0.2"/>
+  <circle cx="950" cy="180" r="2" fill="white" opacity="0.3"/>
+
+  <!-- 여성 비둘기 1 (왼쪽) -->
+  <g transform="translate(180, 280)">
+    <!-- 긴 머리 -->
+    <ellipse cx="-2" cy="-8" rx="42" ry="55" fill="#3a1a0a" opacity="0.9"/>
+    <!-- 다리 -->
+    <line x1="-20" y1="55" x2="-30" y2="95" stroke="#B0A0FF" stroke-width="7" stroke-linecap="round"/>
+    <line x1="20" y1="55" x2="30" y2="95" stroke="#B0A0FF" stroke-width="7" stroke-linecap="round"/>
+    <!-- 팔 -->
+    <line x1="-30" y1="5" x2="-70" y2="-10" stroke="#FF9BB0" stroke-width="10" stroke-linecap="round"/>
+    <line x1="30" y1="5" x2="70" y2="-10" stroke="#FF9BB0" stroke-width="10" stroke-linecap="round"/>
+    <!-- 몸통 -->
+    <ellipse cx="0" cy="20" rx="45" ry="40" fill="#CC6F9B"/>
+    <!-- 머리 -->
+    <circle cx="0" cy="-25" r="35" fill="#E896C0"/>
+    <!-- 눈 -->
+    <circle cx="15" cy="-30" r="10" fill="white"/>
+    <circle cx="17" cy="-30" r="5" fill="#1a1a2e"/>
+    <!-- 볼터치 -->
+    <ellipse cx="5" cy="-18" rx="12" ry="8" fill="rgba(255,150,150,0.4)"/>
+    <!-- 부리 -->
+    <polygon points="32,-22 52,-18 32,-14" fill="#FFD93D"/>
+  </g>
+
+  <!-- 남성 비둘기 1 -->
+  <g transform="translate(420, 310)">
+    <!-- 스포츠 머리 -->
+    <rect x="-30" y="-65" width="60" height="35" rx="8" fill="#2a1a0a"/>
+    <!-- 다리 -->
+    <line x1="-20" y1="55" x2="-30" y2="95" stroke="#A0C0FF" stroke-width="7" stroke-linecap="round"/>
+    <line x1="20" y1="55" x2="30" y2="95" stroke="#A0C0FF" stroke-width="7" stroke-linecap="round"/>
+    <!-- 팔 -->
+    <line x1="-30" y1="5" x2="-70" y2="-10" stroke="#6B9BFF" stroke-width="12" stroke-linecap="round"/>
+    <line x1="30" y1="5" x2="70" y2="-10" stroke="#6B9BFF" stroke-width="12" stroke-linecap="round"/>
+    <!-- 몸통 -->
+    <ellipse cx="0" cy="20" rx="50" ry="40" fill="#4A6FCC"/>
+    <!-- 머리 -->
+    <circle cx="0" cy="-25" r="35" fill="#6B8FFF"/>
+    <!-- 눈 -->
+    <circle cx="15" cy="-30" r="10" fill="white"/>
+    <circle cx="17" cy="-30" r="6" fill="#1a1a2e"/>
+    <!-- 눈썹 -->
+    <line x1="8" y1="-42" x2="25" y2="-40" stroke="#2a1a0a" stroke-width="4" stroke-linecap="round"/>
+    <!-- 부리 -->
+    <polygon points="32,-22 55,-18 32,-14" fill="#FFD93D"/>
+  </g>
+
+  <!-- 여성 비둘기 2 (오른쪽 위) -->
+  <g transform="translate(780, 200)">
+    <ellipse cx="-2" cy="-8" rx="42" ry="55" fill="#3a1a0a" opacity="0.9"/>
+    <line x1="-20" y1="55" x2="-30" y2="95" stroke="#B0A0FF" stroke-width="7" stroke-linecap="round"/>
+    <line x1="20" y1="55" x2="30" y2="95" stroke="#B0A0FF" stroke-width="7" stroke-linecap="round"/>
+    <line x1="-30" y1="5" x2="-70" y2="10" stroke="#FF9BB0" stroke-width="10" stroke-linecap="round"/>
+    <line x1="30" y1="5" x2="70" y2="10" stroke="#FF9BB0" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="0" cy="20" rx="45" ry="40" fill="#CC6F9B"/>
+    <circle cx="0" cy="-25" r="35" fill="#E896C0"/>
+    <circle cx="15" cy="-30" r="10" fill="white"/>
+    <circle cx="17" cy="-30" r="5" fill="#1a1a2e"/>
+    <ellipse cx="5" cy="-18" rx="12" ry="8" fill="rgba(255,150,150,0.4)"/>
+    <polygon points="32,-22 52,-18 32,-14" fill="#FFD93D"/>
+  </g>
+
+  <!-- 남성 비둘기 2 -->
+  <g transform="translate(1000, 320)">
+    <rect x="-30" y="-65" width="60" height="35" rx="8" fill="#2a1a0a"/>
+    <line x1="-20" y1="55" x2="-30" y2="95" stroke="#A0C0FF" stroke-width="7" stroke-linecap="round"/>
+    <line x1="20" y1="55" x2="30" y2="95" stroke="#A0C0FF" stroke-width="7" stroke-linecap="round"/>
+    <line x1="-30" y1="5" x2="-70" y2="-10" stroke="#6B9BFF" stroke-width="12" stroke-linecap="round"/>
+    <line x1="30" y1="5" x2="70" y2="-10" stroke="#6B9BFF" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="0" cy="20" rx="50" ry="40" fill="#4A6FCC"/>
+    <circle cx="0" cy="-25" r="35" fill="#6B8FFF"/>
+    <circle cx="15" cy="-30" r="10" fill="white"/>
+    <circle cx="17" cy="-30" r="6" fill="#1a1a2e"/>
+    <line x1="8" y1="-42" x2="25" y2="-40" stroke="#2a1a0a" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="32,-22 55,-18 32,-14" fill="#FFD93D"/>
+  </g>
+
+  <!-- 타이틀 -->
+  <text x="600" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="url(#title)">🐦 비둘기 군단의 허궈공략 🔥</text>
+  <text x="600" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="white" opacity="0.7" letter-spacing="8">D - D A Y  C O U N T D O W N</text>
+
+  <!-- 훠궈 -->
+  <text x="600" y="500" text-anchor="middle" font-size="120">🍲</text>
+
+  <!-- 날짜 -->
+  <text x="600" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.5">2026년 4월 18일 오후 5시</text>
+</svg>
